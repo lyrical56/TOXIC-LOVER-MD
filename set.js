@@ -10,9 +10,9 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 module.exports = { session: process.env.SESSION_ID || 'ezra',
     PREFIXE: process.env.PREFIX || "+",
     GITHUB : process.env.GITHUB|| 'https://github.com/toxiclover-tech/TOXIC-LOVER-MD',
-    OWNER_NAME : process.env.OWNER_NAME || "toxic lover",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254717263689",  
-              
+    OWNER_NAME : process.env.OWNER_NAME || "lyrical",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "254702689122",  
+              7
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     AUTO_REACT: process.env.AUTO_REACTION || "non",  
